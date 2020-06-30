@@ -18,5 +18,12 @@ public class MainActivity extends AppCompatActivity {
         String sr1 = "1";
         String sr2 = "2";
         String sr3 = "3";
+        Log.d("TAG", "onCreate: " + c);
+        String s1 = "1";
+        String s2 = "2";
+        String s3 = "3";
+        int a1 = 10;
+        int b2 = 20;
+        int c3 = b + a;
     }
 }
