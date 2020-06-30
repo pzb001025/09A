@@ -11,12 +11,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        int a = 100;
-        int b = 100 - a;
+        
+         Log.d("TAG", "onCreate: "+c);
+        String s1 = "1";
+        String s2 = "2";
+        String s3 = "3"; 
+        int a = 10;
+        int b = 20;
         int c = b + a;
-        Log.d("TAG", "onCreate: "+c);
-        String sr1 = "1";
-        String sr2 = "2";
-        String sr3 = "3";        
+              
     }
 }
