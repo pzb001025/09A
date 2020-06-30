@@ -15,5 +15,8 @@ public class MainActivity extends AppCompatActivity {
         int b = 100 - a;
         int c = b + a;
         Log.d("TAG", "onCreate: "+c);
+        String sr1 = "1";
+        String sr2 = "2";
+        String sr3 = "3";        
     }
 }
